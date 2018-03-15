@@ -1,0 +1,58 @@
+{
+    "director_id": "b369d9d0-4a32-4ae9-758f-d76545ca8838",
+    "installation_id": "29556574-9098-422f-4af0-d4a6df985c80",
+    "current_vm_cid": "vm-ecc74eae-b846-463f-57af-d912d4c1eb41",
+    "current_stemcell_id": "05fc159a-11be-4cb2-62b7-0a4f46189d99",
+    "current_disk_id": "defdf421-0b2b-4102-4eb1-474953c0177b",
+    "current_release_ids": [
+        "8327d92e-d050-4355-66e1-b35c9e4ecd32",
+        "7b058361-0f84-4c1e-4f30-277f0e191b89",
+        "18109a3f-da02-4988-74a2-48c589361dc2",
+        "3040dd9a-5aaa-4edc-597a-53ca15b887a9",
+        "c6969f09-2cd9-45c4-7bf6-3d64409fc7a2"
+    ],
+    "current_manifest_sha": "f19766ff30bc8ec6f4c142ca4d6de9bf03ab3ff6e0f8a0f67773cf5b25ad597437694e0c37b23cb377b36f9d36d5478034d754ca383aee483bbb8b2155977cc2",
+    "disks": [
+        {
+            "id": "defdf421-0b2b-4102-4eb1-474953c0177b",
+            "cid": "disk-66bd6216-b001-4f38-7de2-25064fe39f0a",
+            "size": 65536,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "05fc159a-11be-4cb2-62b7-0a4f46189d99",
+            "name": "bosh-vsphere-esxi-ubuntu-trusty-go_agent",
+            "version": "3468.21",
+            "cid": "sc-9dccf013-e2e1-4a8e-50cd-4b422c621997"
+        }
+    ],
+    "releases": [
+        {
+            "id": "8327d92e-d050-4355-66e1-b35c9e4ecd32",
+            "name": "bosh",
+            "version": "264.7.0"
+        },
+        {
+            "id": "7b058361-0f84-4c1e-4f30-277f0e191b89",
+            "name": "bosh-virtualbox-cpi",
+            "version": "0.0.11"
+        },
+        {
+            "id": "18109a3f-da02-4988-74a2-48c589361dc2",
+            "name": "bosh-warden-cpi",
+            "version": "37"
+        },
+        {
+            "id": "3040dd9a-5aaa-4edc-597a-53ca15b887a9",
+            "name": "os-conf",
+            "version": "18"
+        },
+        {
+            "id": "c6969f09-2cd9-45c4-7bf6-3d64409fc7a2",
+            "name": "garden-runc",
+            "version": "1.9.4"
+        }
+    ]
+}
