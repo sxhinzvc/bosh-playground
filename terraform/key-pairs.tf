@@ -1,0 +1,4 @@
+resource "aws_key_pair" "jumpbox" {
+  key_name   = "jumpbox_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC72wrIyQwUH20WEWSXQso94qWngJ341auVhWk1JMdmd9uZyVxAht2VBEjHv/lf77ejJCZNRHoYBa4QSyquCVd+S7pxitl9i61eAvWBVg0mFep3rXIwy5UL1ebMtcKT0AMeHW/WngN4zzpFK267xyVOchDxxn0SUfc4P52rCzfLMmjULRGNE5hG5yktW/BU5r+IjTYlwZ6LecMf3S5q7JIlhdkePuF0o0f1AGBAxHCHeC8JrgKa/tPTSsRN+N5Ri0beVaTHcQAqJCYJcvMXwijG2C/oHL6AzWLOVk2AdohFMABVmFolV8/MyAUkRQHmLK/SdwLxQJeP/2XhezS5cS77 julee@pivotal.io"
+}

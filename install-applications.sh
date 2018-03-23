@@ -16,5 +16,7 @@ echo "install other stuff"
 brew tap cloudfoundry/tap
 brew install bosh-cli
 
+brew install terraform
+
 set -e
 set +x
